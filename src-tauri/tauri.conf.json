@@ -13,7 +13,14 @@
     "macOSPrivateApi": true,
     "windows": [
       {
+        "label": "main",
         "title": "popup-notifier",
+        "width": 800,
+        "height":800,
+        "url": "/dashboard"
+      },
+      {
+        "label": "notification-window",
         "width": 400,
         "height": 200,
         "transparent": true,
@@ -22,7 +29,8 @@
         "hiddenTitle": true,
         "alwaysOnTop": true,
         "skipTaskbar": true,
-        "shadow": false
+        "shadow": false,
+        "url": "/notification"
       }
     ],
     "security": {
